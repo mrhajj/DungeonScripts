@@ -16,6 +16,7 @@ public class RotateToFace : MonoBehaviour
         }
         else{
             target = PlayerSingleton.instance.gameObject.transform;
+            //
         }
     }
 }
